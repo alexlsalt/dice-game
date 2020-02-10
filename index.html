@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dice Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <section class="game wrapper border">
+      <section class="player-0-panel active">
+        <h2 id='name-0'>Player 1</h2>
+        <span class='score-0'>22</span>
+        <div class="current-box">
+          <p>Current</p>
+          <span class="current-0">9</span>
+        </div>
+
+      </section>
+
+      <section class="player-1-panel">
+        <h2 id='name-1'>Player 2</h2>
+        <span class='score-1'>33</span>
+        <div class="current-box">
+          <p>Current</p>
+          <span class="current-1">12</span>
+        </div>
+
+      </section>
+
+    </section>
+
+    <div class="dice">
+      <img id="dice" src="dice-5.png" alt="">
+    </div>
+    <div class="win">
+      <span class="win-message">Congratulations, Player won!</span>
+    </div>
+
+    <div class="btn inside">
+      <button class="btn-roll">Roll Dice</button>
+      <button class="btn-hold">Hold</button>
+    </div>
+    
+    <div class="btn outside">
+      <button class="btn-new">New Game</button>
+    </div>
+
+    
+    <script src="script.js" async defer></script>
+  </body>
+</html>

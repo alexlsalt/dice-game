@@ -1,0 +1,127 @@
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.wrapper {
+  width: 80%;
+  height: 35rem;
+  margin: 0 auto;
+
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.active {
+  background-color: peachpuff;
+  
+}
+
+.active h2 {
+  font-weight: 500;
+}
+
+.player-0-panel,
+.player-1-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  text-align: center;
+}
+
+.score-0,
+.score-1 {
+  font-size: 5rem;
+}
+
+.current-box {
+  background-color: coral;
+  width: 30%;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.current-box p {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.current-box span {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.win, .dice img {
+  position: absolute;
+  width: 10%;
+  top: 8%;
+  left: 45%;
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+.win {
+  display: none;
+}
+
+.btn {
+  width: 15%;
+  position: absolute;
+  left: 42%;
+
+}
+
+/*For btn class inside game wrapper*/
+.inside {
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  top: 57%;
+}
+
+/*For btn class outside game wrapper*/
+.outside {
+  margin-top: 1rem;
+}
+
+.outside button {
+  width: 100%;
+}
+
+
+button {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  border-radius: 60px;
+  cursor: pointer;
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+.btn button:hover {
+  background-color: lightgreen;
+  transform: scaleX(1.05);
+  transition-duration: 0.7s;
+}
+
+.winner {
+  background-color: lightgreen;
+}
+
+.winner h2 {
+  font-weight: 500;
+}
