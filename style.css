@@ -4,6 +4,11 @@
   font-family: 'Lato', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: coral;
+}
+
 h2 {
   font-size: 2.5rem;
   font-weight: 100;
@@ -124,4 +129,26 @@ button {
 
 .winner h2 {
   font-weight: 500;
+}
+
+.instructions {
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: left;
+  height: 13rem;
+  width: 60%;
+}
+
+.instructions span {
+  font-size: 1.5rem;
+}
+
+.instructions h2 {
+  font-weight: 500;
+  text-align: center;
+}
+
+footer {
+  margin-top: 1.5rem;
+  text-align: center;
 }
