@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,500&display=swap" rel="stylesheet">
   </head>
   <body>
+    <header>Developed by <a href="https://alexlsalt.github.io/" target="_blank">Alex Morton</a></header>
+    
 
     <section class="game wrapper border">
       <section class="player-0-panel active">
@@ -44,20 +46,25 @@
       <button class="btn-roll">Roll Dice</button>
       <button class="btn-hold">Hold</button>
     </div>
+
+    <input id="input" type="text" placeholder="Winning Score?">
     
     <div class="btn outside">
       <button class="btn-new">New Game</button>
     </div>
     <section class="instructions wrapper">
-      <h2>Instructions</h2>
-      <span>1. Roll the dice and try to get as many points as possible before you roll a '1'</span> <br>
-      <span>2. To count your current score toward your game score, click 'Hold'</span> <br>
-      <span>3. If you roll a '1,' your current points will be lost and it will be the next player's turn</span> <br>
-      <span>4. The first player to reach 100 points wins</span>
+      <h2>Instructions (below)</h2>
+      <span>1. Enter a winning score number into the box (this can be changed while playing the game)</span><br>
+      <span>Note: if no number is entered into the score box, the winning score is 100 by default.</span> <br>
+      <span>2. Roll the die and try to get as many points as possible</span> <br>
+      <span>3. To count your current score toward your game score, click 'Hold'</span> <br>
+      <span>4. If you roll a '1,' your current points will be lost and it will be the next player's turn</span> <br>
+      <span>5. The first player to reach the winning number of points wins</span><br>
+      <span>6. Warning! If two 6's are rolled in a row, the active player loses all points</span>
     </section>
 
     <footer>
-      Developed by <a href="https://alexlsalt.github.io/" target="_blank">Alex Morton</a>
+      
     </footer>
     
     <script src="script.js" async defer></script>

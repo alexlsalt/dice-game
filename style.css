@@ -4,6 +4,18 @@
   font-family: 'Lato', sans-serif;
 }
 
+input {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 74%;
+  height: 48px;
+  width: 160px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Lato';
+}
+
 a {
   text-decoration: none;
   color: coral;
@@ -23,6 +35,16 @@ h2 {
   height: 35rem;
   margin: 0 auto;
 
+}
+
+header {
+  text-align: center;
+  padding-bottom: 0.7rem;
+}
+
+header a:hover {
+  border-bottom: 3px solid coral;
+  padding-bottom: 0.2rem;
 }
 
 .game {
@@ -117,7 +139,7 @@ button {
   box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
 
-.btn button:hover {
+button:hover {
   background-color: lightgreen;
   transform: scaleX(1.05);
   transition-duration: 0.7s;
@@ -135,8 +157,9 @@ button {
   margin: 0 auto;
   margin-top: 5rem;
   text-align: left;
-  height: 13rem;
-  width: 60%;
+  height: auto;
+  width: 65%;
+  padding-bottom: 1rem;
 }
 
 .instructions span {
@@ -148,7 +171,3 @@ button {
   text-align: center;
 }
 
-footer {
-  margin-top: 1.5rem;
-  text-align: center;
-}
